@@ -20,10 +20,10 @@ print("2. Subtraction\n")
 print("3. Multiplication\n")
 print("4. Division\n") 
 
-sel = int(input("Select operation (1-4): "))
+sel = int(input("Select operation (1-4):\n "))
 
-n1 = int(input("Enter first number: "))
-n2 = int(input("Enter second number: "))
+n1 = int(input("Enter first number:\n "))
+n2 = int(input("Enter second number:\n "))
 
 if sel == 1:
     print(n1, "+", n2, "=", add(n1, n2))
