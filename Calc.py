@@ -22,7 +22,7 @@ print("4. Division\n")
 
 sel = int(input("Select operation (1-4): "))
 
-n1 = int(input("Enter first number "))
+n1 = int(input("Enter first number: "))
 n2 = int(input("Enter second number: "))
 
 if sel == 1:
